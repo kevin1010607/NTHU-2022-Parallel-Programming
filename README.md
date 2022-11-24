@@ -30,7 +30,7 @@
 
 ## HW4
 
-## Lab1 - Pixels in circle
+## Lab1 - Pixels in circle (MPI)
 
 ### Problem
 - Suppose we want to draw a filled circle of radius r on a 2D monitor, how many pixels will be filled?
@@ -39,19 +39,19 @@
 ### Implementation
 - Parallelize the calculation using MPI.
 
-## Lab2
+## Lab2 - Pixels in circle (Pthread & OpenMP)
 
 ### Problem
 - Same as Lab1.
 ### Implmentation
 - We are going to approximate pixels using pthread, OpenMP and hybrid of MPI and OpenMP in this lab.
 
-## Lab3
+## Lab3 - Edge Detection (cuda)
 
 ### Problem
-- Edge Detection: Identifying points in a digital image at which the image brightness changes sharply.
+- Identifying points in a digital image at which the image brightness changes sharply.
 - Sobel Operator: Used in image processing and computer vision, particularly within edge detection algorithms.
-- Uses two 3 x 3 kernels gx, gy which are convolved with the original image to calculate approximations of the derivatives one for horizontal changes, and one for vertical.
+- Uses two 5 x 5 kernels gx, gy which are convolved with the original image to calculate approximations of the derivatives one for horizontal changes, and one for vertical.
 ### Implmentation
 - Parallelize the calculation using GPU and cuda.
 
