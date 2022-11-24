@@ -46,7 +46,7 @@
 ### Implmentation
 - We are going to approximate pixels using pthread, OpenMP and hybrid of MPI and OpenMP in this lab.
 
-## Lab3 - Edge Detection (cuda)
+## Lab3 - Edge detection (Cuda)
 
 ### Problem
 - Identifying points in a digital image at which the image brightness changes sharply.
