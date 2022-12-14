@@ -2,12 +2,12 @@ CC = gcc
 CXX = g++
 LDLIBS = -lpng
 CFLAGS = -lm -O3
-test_a: CFLAGS += -pthread
-test_b: CC = mpicc
-test_b: CXX = mpicxx
-test_b: CFLAGS += -fopenmp
+hw2a_time: CFLAGS += -pthread
+hw2b_time: CC = mpicc
+hw2b_time: CXX = mpicxx
+hw2b_time: CFLAGS += -fopenmp
 CXXFLAGS = $(CFLAGS)
-TARGETS = test_a test_b
+TARGETS = hw2a_time hw2b_time
 
 .PHONY: all
 all: $(TARGETS)
