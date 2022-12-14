@@ -26,7 +26,7 @@
     - MPI processes are used to balance tasks among nodes, and OpenMP threads are used to perform computations.
     - Pthread library could also be used to create additional threads for communications.
 
-## HW3
+## HW3 - All-Pairs Shortest Path
 
 ### Goal
 - This assignment helps you manage to solve the all-pairs shortest path problem with CPU threads and then further accelerate the program with CUDA accompanied by Blocked Floyd-Warshall algorithm.
@@ -43,7 +43,20 @@
   - Multi-GPU version (hw3-3)
     - Must use 2 GPUs.
 
-## HW4
+## HW4 - MapReduce
+
+### Goal
+- This assignment provides an opportunity for you to practice your parallel programming skills by implementing the scheduling and parallel programming model of the well-known big data processing framework, MapReduce.
+### Implementation
+- You are asked to implement a parallel program that mimics the data locality-aware scheduling policy and the functional level programming model of MapReduce.
+- You will implement the parallel program using MPI and Pthread library. The jobtracker(scheduler) and tasktrackers(workers) are implemented as MPI processes, and threads are used for executing computing tasks and IO.
+- The jobtracker is responsible for generating the map tasks, reducing tasks of a MapReduce job and following the data-locality scheduling principle to dispatch tasks on worker nodes for execution.
+- Each node runs a tasktracker which is responsible for creating and managing a set of mapper and reducer threads to execute the receiving map tasks and reduce tasks and outputs the intermediate and final output files.
+- We do NOT consider worker nodes to join, leave or fail during the job execution.
+- You are required to implement MapReduce system architecture, programming model, and scheduling algorithm described in Section 3, 4 and 5, respectively.
+- You are required to implement a WordCount sample code to demonstrate your implementation.
+- All the codes should be compiled into a single MPI program, and you should make sure the program terminates properly after all the computing tasks are completed.
+- Performance is not the primary concern in this assignment, but you are still encouraged to improve the code efficiently.
 
 ## Lab1 - Pixels in circle (MPI)
 
@@ -70,7 +83,7 @@
 ### Implmentation
 - Parallelize the calculation using GPU and cuda.
 
-## Lab4
+## Lab4 - Edge detection (Cuda Advance)
 
 ### Problem
 - Same as Lab3
