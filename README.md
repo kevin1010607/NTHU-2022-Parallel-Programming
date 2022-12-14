@@ -57,6 +57,14 @@
 
 ## Lab4
 
+### Problem
+- Same as Lab3
+### Implementation
+- Further optimize the code with following techniques
+  - Coalesced Memory Access
+  - Lower Precision
+  - Shared Memory
+
 ## Lab5
 
 ## Lab6
