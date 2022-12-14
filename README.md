@@ -28,6 +28,21 @@
 
 ## HW3
 
+### Goal
+- This assignment helps you manage to solve the all-pairs shortest path problem with CPU threads and then further accelerate the program with CUDA accompanied by Blocked Floyd-Warshall algorithm.
+- We encourage you to optimize your program by exploring different optimizing strategies for performance points.
+### Implementation
+- You are asked to implement 3 versions of programs that solve the all-pairs shortest path problem.
+  - CPU version (hw3-1)
+    - You are required to use threading to parallelize the computation in your program.
+    - You can choose any threading library or framework you like (pthread, std::thread, OpenMP, Intel TBB, etc).
+    - You can choose any algorithm to solve the problem.
+    - You must implement the shortest path algorithm yourself.
+  - Single-GPU version (hw3-2)
+    - Should be optimized to get the performance points.
+  - Multi-GPU version (hw3-3)
+    - Must use 2 GPUs.
+
 ## HW4
 
 ## Lab1 - Pixels in circle (MPI)
