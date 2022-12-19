@@ -1,0 +1,30 @@
+[
+    {
+        "optimization": "CPU",
+        "time": 226.40
+    },
+    {
+        "optimization": "GPU Baseline",
+        "time": 148.32
+    },
+    {
+        "optimization": "Padding",
+        "time": 146.17
+    },
+    {
+        "optimization": "Coalesced Memory",
+        "time": 11.67
+    },
+    {
+        "optimization": "Shared Memory",
+        "time": 3.47
+    },
+    {
+        "optimization": "Blocking Factor Tuning",
+        "time": 1.71
+    },
+    {
+        "optimization": "Unroll",
+        "time": 1.66
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "factor": 16,
+        "time": 729.01,
+        "inst_integer": 1370603520,
+        "shared_load_throughput": 947.73,
+        "shared_store_throughput": 78.98,
+        "gld_throughput": 118.47,
+        "gst_throughput": 39.49
+    },
+    {
+        "factor": 32,
+        "time": 245.31,
+        "inst_integer": 1968685056,
+        "shared_load_throughput": 2884.40,
+        "shared_store_throughput": 120.18,
+        "gld_throughput": 180.27,
+        "gst_throughput": 60.09
+    },
+    {
+        "factor": 64,
+        "time": 111.14,
+        "inst_integer": 2703826944,
+        "shared_load_throughput": 3221.40,
+        "shared_store_throughput": 134.23,
+        "gld_throughput": 201.34,
+        "gst_throughput": 67.113
+    }
+]
