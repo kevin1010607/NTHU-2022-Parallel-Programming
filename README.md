@@ -95,7 +95,7 @@
 
 ## Lab5
 
-## Lab6
+## Lab6 - Distributed training (Horovod)
 
 ### Problem
 - Make model distributed by Horovod
