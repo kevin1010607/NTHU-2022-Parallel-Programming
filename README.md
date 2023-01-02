@@ -97,4 +97,11 @@
 
 ## Lab6
 
+### Problem
+- Make model distributed by Horovod
+### Implementation
+- Initialize Horovod
+- Adjust learning rate based on number of process
+- Broadcast mnist_model.variables and opt.variables() to all other processes
+
 ## Final Project
