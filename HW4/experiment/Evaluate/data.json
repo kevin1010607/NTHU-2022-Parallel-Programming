@@ -1,0 +1,26 @@
+[
+    {
+        "testcase": "TEST01",
+        "time": 0.136626
+    },
+    {
+        "testcase": "TEST02",
+        "time": 3.194228
+    },
+    {
+        "testcase": "TEST03",
+        "time": 6.190816
+    },
+    {
+        "testcase": "TEST04",
+        "time": 8.265520
+    },
+    {
+        "testcase": "TEST05",
+        "time": 12.500283
+    },
+    {
+        "testcase": "TEST06",
+        "time": 41.013256
+    }
+]
