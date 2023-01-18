@@ -93,7 +93,10 @@
   - Lower Precision
   - Shared Memory
 
-## Lab5
+## Lab5 - HDFS / MapReduce & Hive / Spark
+
+- Hands-on Lab
+- Self-studying
 
 ## Lab6 - Distributed training (Horovod)
 
