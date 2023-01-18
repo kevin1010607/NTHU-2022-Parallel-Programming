@@ -1,0 +1,34 @@
+[
+    {
+        "optimization": "CPU",
+        "time": 92.480284
+    },
+    {
+        "optimization": "GPU Baseline",
+        "time": 21.918640
+    },
+    {
+        "optimization": "DP Index",
+        "time": 7.572347
+    },
+    {
+        "optimization": "Parallel\nMaxReduce",
+        "time": 6.818503
+    },
+    {
+        "optimization": "Two Data\nPer Thread",
+        "time": 5.989500
+    },
+    {
+        "optimization": "Multiple Data\nPer Thread",
+        "time": 4.071070
+    },
+    {
+        "optimization": "Unroll\nLast Warp",
+        "time": 3.930623
+    },
+    {
+        "optimization": "Unroll All",
+        "time": 3.898832
+    }
+]

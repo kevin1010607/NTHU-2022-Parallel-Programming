@@ -105,3 +105,22 @@
 - Broadcast mnist_model.variables and opt.variables() to all other processes
 
 ## Final Project
+
+### Problem
+- Given **n** balloons. Each balloon is painted with a number on it represented by an array nums. You are asked to burst all the balloons.
+- If you burst the **ith** balloon, you will get **nums[i-1]\*nums[i]\*nums[i+1]** coins. If **i-1** or **i+1** goes out of bounds of the array, then treat it as if there is a balloon with a **1** painted on it.
+- Return the maximum coins you can collect by bursting the balloons wisely.
+- Constraints: **1** <= **n** <= **10000**, **1** <= **nums[i]** <= **50**.
+### Implementation
+- CPU - sequential
+- GPU - optimize step by step
+  - Baseline (21.92s)
+  - DP reindexing (7.57s)
+  - Parallel maxreduce (6.82s)
+  - Two data per thread (5.99s)
+  - Multiple data per thread (4.07s)
+  - Unroll last warp (3.93s)
+  - Unroll all (3.90s)
+### Reference
+- https://leetcode.com/problems/burst-balloons/
+- https://developer.download.nvidia.com/compute/cuda/1.1-Beta/x86_website/projects/reduction/doc/reduction.pdf
